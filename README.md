@@ -17,7 +17,7 @@ Animations play an important role in our daily life and have been widely used in
 We implement a generator architecture that preserves the global information (e.g., pose) of a source photo-face, while transforming local facial shapes into anime-like ones and transferring colors/textures based on the style of a reference anime-face. Our insight is that the local shapes (e.g., large and round eyes) can be treated as a kind of style like color/texture. In this way, transforming a face’s local shapes can be achieved via style transfer. To transform local facial shapes via style transfer, we explore where to inject the style information into the generator. In particular, the multi-layer feature maps extracted by the decoder represent multi-level semantics (i.e., from high-level structural information to low-level textural information). Our generator therefore injects the style information into the multi-level feature maps of the decoder. Guided the injected style information and different levels of feature maps, our generator adaptively learns to transfer color/texture styles and transform local facial shapes.
 
 
-![image](https://user-images.githubusercontent.com/59551957/192747161-bcc30ba2-98f0-4f17-afe0-b6ebe3ca5437.png)
+![image](https://user-images.githubusercontent.com/59551957/192747615-6bbb2922-d1ab-4c42-9182-1a98811dc473.png)
 
 
 In addition to the generator, we propose a double-branch discriminator that explicitly considers large appearance variations between photo-faces and anime-faces as well as variations among anime images. The double-branch discriminator not only learns domain-specific distributions by two branches of convolutional layers, but also learns the distributions of a common space across domains by shared shallow layers
@@ -25,20 +25,17 @@ In addition to the generator, we propose a double-branch discriminator that expl
 ![image](https://user-images.githubusercontent.com/59551957/192745840-e74b7c3b-2f8b-4b9a-b7c5-c5baec20f014.png)
 
 
-After experimenting with miultiple different archtectures for content encoder and style encoder, we came up with the following architecture 
+''' After experimenting with miultiple different archtectures for content encoder and style encoder, we came up with the following architecture 
 
 ## Content Encoder
 
-human face
-![image](https://user-images.githubusercontent.com/59551957/192747615-6bbb2922-d1ab-4c42-9182-1a98811dc473.png)
-anime face
+
+/// Image 
 
 
 ## Style Encoder
 
-human face
-![image](https://user-images.githubusercontent.com/59551957/192746793-5ac83fd0-16e6-42c2-8613-a998b8955ad1.png)
-animeface
+/// Image
 
 
 ### References :-
