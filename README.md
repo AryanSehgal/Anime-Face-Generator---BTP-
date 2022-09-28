@@ -38,6 +38,8 @@ In addition to the generator, we propose a double-branch discriminator that expl
 /// Image
 
 
+<hr style="border:2px solid gray">
+
 ### References :-
 AniGAN: Style-Guided Generative Adversarial Networks for Unsupervised Anime Face Generation
 
