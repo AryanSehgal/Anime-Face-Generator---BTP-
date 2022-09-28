@@ -2,15 +2,15 @@
 
 Contributors :-
 
-Aryan Sehgal    - 2019UCS2019
+##### Aryan Sehgal    - 2019UCS2019
 
-Sourabh         - 2019UCS2025
+##### Sourabh         - 2019UCS2025
 
-Aditya Divyang  - 2019UCS2012
+##### Aditya Divyang  - 2019UCS2012
 
-M Aman Chaudhry - 2019UCS2020
+##### M Aman Chaudhry - 2019UCS2020
 
-
+<hr style="border:2px solid gray">
 
 Animations play an important role in our daily life and have been widely used in entertainment, social, and educational applications. We aim to automatically translate a photo-face into an anime-face based on the styles of a reference anime-face. We refer to such a task as Style-Guided Face-to-Anime Translation (StyleFAT). 
 
