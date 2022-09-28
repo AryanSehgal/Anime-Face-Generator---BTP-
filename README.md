@@ -29,12 +29,16 @@ After experimenting with miultiple different archtectures for content encoder an
 
 ## Content Encoder
 
-![image](https://user-images.githubusercontent.com/59551957/192746642-ecb3d687-bbfb-4dc1-a62c-a875b5a6135d.png)
+human face
+![image](https://user-images.githubusercontent.com/59551957/192747615-6bbb2922-d1ab-4c42-9182-1a98811dc473.png)
+anime face
+
 
 ## Style Encoder
 
+human face
 ![image](https://user-images.githubusercontent.com/59551957/192746793-5ac83fd0-16e6-42c2-8613-a998b8955ad1.png)
-
+animeface
 
 
 ### References :-
