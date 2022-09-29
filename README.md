@@ -24,7 +24,7 @@ In addition to the generator, we propose a double-branch discriminator that expl
 
 ![imgArch](https://user-images.githubusercontent.com/59551957/192975687-ea2c4d09-b46f-4bb2-a2bb-97e0a081a8e1.jpeg)
 
-img[alt=drawing] { width: 350px; height: 250px }
+img[alt=imgArch] { width: 350px; height: 250px }
 
 * After experimenting with miultiple different archtectures for content encoder and style encoder, we came up with the following architecture 
 
