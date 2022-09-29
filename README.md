@@ -18,13 +18,13 @@ We implement a generator architecture that preserves the global information (e.g
 
 
 ![imgArch](https://user-images.githubusercontent.com/59551957/192975719-13b92ff6-f157-401f-87a7-4599ea5f0f63.jpeg)
-
+<img src="https://user-images.githubusercontent.com/59551957/192975719-13b92ff6-f157-401f-87a7-4599ea5f0f63.jpeg" alt="drawing" width="350" height="200"/>
 
 In addition to the generator, we propose a double-branch discriminator that explicitly considers large appearance variations between photo-faces and anime-faces as well as variations among anime images. The double-branch discriminator not only learns domain-specific distributions by two branches of convolutional layers, but also learns the distributions of a common space across domains by shared shallow layers
 
 ![imgArch](https://user-images.githubusercontent.com/59551957/192975687-ea2c4d09-b46f-4bb2-a2bb-97e0a081a8e1.jpeg)
+<img src="https://user-images.githubusercontent.com/59551957/192975687-ea2c4d09-b46f-4bb2-a2bb-97e0a081a8e1.jpeg" alt="drawing" width="350" height="200"/>
 
-img[alt=imgArch] { width: 350px; height: 250px }
 
 * After experimenting with miultiple different archtectures for content encoder and style encoder, we came up with the following architecture 
 
