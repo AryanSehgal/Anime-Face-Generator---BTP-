@@ -17,13 +17,11 @@ Animations play an important role in our daily life and have been widely used in
 We implement a generator architecture that preserves the global information (e.g., pose) of a source photo-face, while transforming local facial shapes into anime-like ones and transferring colors/textures based on the style of a reference anime-face. Our insight is that the local shapes (e.g., large and round eyes) can be treated as a kind of style like color/texture. In this way, transforming a face’s local shapes can be achieved via style transfer. To transform local facial shapes via style transfer, we explore where to inject the style information into the generator. In particular, the multi-layer feature maps extracted by the decoder represent multi-level semantics (i.e., from high-level structural information to low-level textural information). Our generator therefore injects the style information into the multi-level feature maps of the decoder. Guided the injected style information and different levels of feature maps, our generator adaptively learns to transfer color/texture styles and transform local facial shapes.
 
 
-![imgArch](https://user-images.githubusercontent.com/59551957/192975719-13b92ff6-f157-401f-87a7-4599ea5f0f63.jpeg)
-<img src="https://user-images.githubusercontent.com/59551957/192975719-13b92ff6-f157-401f-87a7-4599ea5f0f63.jpeg" alt="drawing" width="350" height="200"/>
+<img src="https://user-images.githubusercontent.com/59551957/192975719-13b92ff6-f157-401f-87a7-4599ea5f0f63.jpeg" alt="drawing" height="500"/>
 
 In addition to the generator, we propose a double-branch discriminator that explicitly considers large appearance variations between photo-faces and anime-faces as well as variations among anime images. The double-branch discriminator not only learns domain-specific distributions by two branches of convolutional layers, but also learns the distributions of a common space across domains by shared shallow layers
 
-![imgArch](https://user-images.githubusercontent.com/59551957/192975687-ea2c4d09-b46f-4bb2-a2bb-97e0a081a8e1.jpeg)
-<img src="https://user-images.githubusercontent.com/59551957/192975687-ea2c4d09-b46f-4bb2-a2bb-97e0a081a8e1.jpeg" alt="drawing" width="350" height="200"/>
+<img src="https://user-images.githubusercontent.com/59551957/192975687-ea2c4d09-b46f-4bb2-a2bb-97e0a081a8e1.jpeg" alt="drawing" height="500"/>
 
 
 * After experimenting with miultiple different archtectures for content encoder and style encoder, we came up with the following architecture 
