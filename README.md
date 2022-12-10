@@ -22,7 +22,7 @@ We implement a generator architecture that preserves the global information (e.g
 
 In addition to the generator, we propose a discriminator that discriminates between real and generated human-faces, and real and generated anime faces. In particular, we assume that anime-faces and photo-faces partially share common distributions and such cross-domain shared distributions constitute meaningful face information, since these two domains are both about faces. Our discriminator network uses pre-trained layers of VGG16 model to classify the image given to the network.
 
-![Discriminator_Architecture](https://user-images.githubusercontent.com/59551957/206827781-de18e3cc-a474-4577-b270-dd6291f58598.jpg = 200 x 200)
+<img src="https://user-images.githubusercontent.com/59551957/206827781-de18e3cc-a474-4577-b270-dd6291f58598.jpg" width="250">
 
 * After experimenting with miultiple different archtectures for content encoder and style encoder, we came up with the following architecture 
 
