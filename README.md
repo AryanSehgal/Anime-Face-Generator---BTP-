@@ -29,13 +29,12 @@ In addition to the generator, we propose a discriminator that discriminates betw
 ## Content Encoder
 
 
-![Content Encoder Architecture](https://user-images.githubusercontent.com/59551957/192975797-40b524a5-e017-421c-bfb6-d6c3ccff77b8.jpeg)
+<img src="https://user-images.githubusercontent.com/59551957/192975797-40b524a5-e017-421c-bfb6-d6c3ccff77b8.jpeg" width="200">
 
 
 ## Style Encoder
 
-
-![Style Encoder Architecture New](https://user-images.githubusercontent.com/59551957/192975853-59b43434-1c4a-46c5-bf88-651c42b7c552.jpeg)
+<img src="https://user-images.githubusercontent.com/59551957/192975853-59b43434-1c4a-46c5-bf88-651c42b7c552.jpeg" width="200">
 
 
 ## Decoder
