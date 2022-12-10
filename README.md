@@ -17,12 +17,12 @@ Animations play an important role in our daily life and have been widely used in
 We implement a generator architecture that preserves the global information (e.g., pose) of a source photo-face, while transforming local facial shapes into anime-like ones and transferring colors/textures based on the style of a reference anime-face. Our insight is that the local shapes (e.g., large and round eyes) can be treated as a kind of style like color/texture. In this way, transforming a face’s local shapes can be achieved via style transfer. To transform local facial shapes via style transfer, we explore where to inject the style information into the generator. In particular, the multi-layer feature maps extracted by the decoder represent multi-level semantics (i.e., from high-level structural information to low-level textural information). Our generator therefore injects the style information into the multi-level feature maps of the decoder. Guided the injected style information and different levels of feature maps, our generator adaptively learns to transfer color/texture styles and transform local facial shapes.
 
 
-![Generator](https://user-images.githubusercontent.com/59551957/206827795-200422a7-5ed0-4c44-adc6-11ae74b03ce5.jpeg = 200 x 200)
+<img src="https://user-images.githubusercontent.com/59551957/206827795-200422a7-5ed0-4c44-adc6-11ae74b03ce5.jpeg" width="350">
 
 
 In addition to the generator, we propose a discriminator that discriminates between real and generated human-faces, and real and generated anime faces. In particular, we assume that anime-faces and photo-faces partially share common distributions and such cross-domain shared distributions constitute meaningful face information, since these two domains are both about faces. Our discriminator network uses pre-trained layers of VGG16 model to classify the image given to the network.
 
-<img src="https://user-images.githubusercontent.com/59551957/206827781-de18e3cc-a474-4577-b270-dd6291f58598.jpg" width="250">
+<img src="https://user-images.githubusercontent.com/59551957/206827781-de18e3cc-a474-4577-b270-dd6291f58598.jpg" width="350">
 
 * After experimenting with miultiple different archtectures for content encoder and style encoder, we came up with the following architecture 
 
